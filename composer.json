@@ -1,0 +1,31 @@
+{
+    "name": "wdalmut/frankie-foundation-module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walter Dal Mut",
+            "email": "walter.dalmut@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^1.0",
+        "php-di/php-di": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Corley\\FoundationModule\\": ["./src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Corley\\FoundationModule\\": ["./tests"]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "acclimate/container": "~2",
+        "wdalmut/frankie-modular": "dev-master",
+        "wdalmut/frankie": "dev-master"
+    }
+}
